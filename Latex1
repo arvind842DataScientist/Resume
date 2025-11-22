@@ -1,0 +1,162 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge \scshape Arvind Kumar} \\ \vspace{1pt}
+  \small +91-9693797598 $|$ \href{mailto:arvindkumar8521643719@gmail.com}{arvindkumar8521643719@gmail.com} $|$
+  \href{https://www.linkedin.com/in/arvind-kumar-b59286259}{LinkedIn} $|$
+  \href{https://github.com/arvind842DataScientist}{GitHub} $|$ 
+  \href{https://www.kaggle.com/hanumansingh}{Kaggle}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {NIT Karnataka, Surathkal}{Nov 2022 -- Present}
+    {B.Tech, Mining Engineering}{CGPA: 8.23}
+
+\resumeSubHeadingListEnd
+
+
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Blast Design Optimization using Machine Learning (Industrial Training)}{Apr 2024 -- May 2024}
+  {Central Coalfields Limited (CCL), Coal India Ltd.}{Kathara Colliery, Jharkhand}
+  \resumeItemListStart
+    \resumeItem{Analyzed real-world blasting data from open-cast coal mines, including charge weight, burden, spacing, hole depth, and delay intervals.}
+    \resumeItem{Performed data preprocessing, feature engineering, and exploratory analysis to understand factors influencing ground vibration.}
+    \vspace{-4mm}
+    \resumeItem{Developed ML regression models (Random Forest, XGBoost) to predict Peak Particle Velocity (PPV) for safer and optimized blast design.}
+    \resumeItem{Achieved strong predictive performance with \textbf{R\textsuperscript{2} = 0.87} and a 28\% reduction in MAE compared to standard empirical formulas.}
+    \resumeItem{Generated insights and visualizations supporting improved blasting efficiency while adhering to safety and vibration-control regulations.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+  {\textbf{Supply Chain Cost \& Logistics Analysis} $|$ \emph{Python, SQL, Power BI} $|$ \href{https://github.com/arvind842DataScientist/suppy_chain_capstone_project.git}{GitHub}}{}
+  \begin{itemize}
+    \item Analyzed large-scale sales, production, and shipping data to identify inefficiencies contributing to high logistics and operational costs.
+    \item Applied data cleaning, SQL aggregation, and Python-based EDA to uncover key cost drivers, demand patterns, delays, and inventory bottlenecks.
+    \item Built interactive Power BI dashboards that visualized KPIs and highlighted actionable bottlenecks to support data-driven cost optimization.
+  \end{itemize}
+
+\resumeProjectHeading
+  {\textbf{Churn Prediction Project} $|$ \emph{Python, Pandas, NumPy, Scikit-learn} $|$ \href{https://github.com/arvind842DataScientist/Churn_prediction.git}{GitHub}}{}
+  \begin{itemize}
+    \item Cleaned, preprocessed, and analyzed customer demographic and service-usage data to study churn patterns.
+    \item Trained a Random Forest Classifier for churn prediction, achieving \textbf{85\% accuracy} and highlighting key churn-driving features.
+    \item Identified influential variables (tenure, charges, contract type) using feature importance to support retention strategy insights.
+  \end{itemize}
+
+% \resumeProjectHeading
+%   {\textbf{Olympic Data Analysis Web App} $|$ \emph{Python, Pandas, NumPy, Plotly, Seaborn, Streamlit} $|$ 
+%   \href{https://github.com/arvind842DataScientist/olympic_data_analysis.git}{GitHub}}{}
+%   \begin{itemize}
+%     \item Developed an interactive Streamlit web app to explore historical Summer Olympic data with country-wise and athlete-wise insights.
+%     \item Processed and analyzed datasets using Pandas/NumPy to enable smooth exploration of medals, participation trends, and event statistics.
+%     \item Built dynamic visualizations using Plotly and Seaborn, improving data accessibility and delivering an intuitive user experience.
+%   \end{itemize}
+
+\resumeProjectHeading
+  {\textbf{Boston Housing Price Prediction} $|$ \emph{Python, Pandas, Seaborn, Scikit-learn, XGBoost} $|$ \href{https://github.com/arvind842DataScientist/Boston}{GitHub}}{}
+  \begin{itemize}
+    \item Analyzed the Boston Housing dataset (506 records, 14 features) with EDA and feature engineering to understand price-driving factors.
+    \item Trained and compared multiple regression models including Linear Regression, Random Forest, Extra Trees, and XGBoost.
+    \item Achieved a best \textbf{MSE of 10.0}, demonstrating strong predictive capability across models.
+  \end{itemize}
+
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+  % \textbf{Tech:} Slide2, Fragalyst,Excel,QGIS \\
+    \textbf{Tech:} Python, NumPy, Pandas, Scikit-learn, Seaborn, Tailwind CSS, Matplotlib, Power BI, Excel, SQL, Machine Learning, Data Structres And Algorithms \\
+    % \textbf{Tech:} MongoDB, React, TailwindCSS, Express,Node JS,
+    % \textbf{Tools:} Jupyter, git , VS Code, gitHub \\
+    \textbf{Soft Skills:} Communication, Leadership, Teamwork
+  }}
+\end{itemize}
+
+\section{Achievements}
+\resumeItemListStart
+  \resumeItem{Solved 300+ DSA problems on Leetcode and GeeksforGeeks}
+  \resumeItem{Secured AIR 15k in JEE Advanced 2022.}
+  \resumeItem{Won the Gold Medal in the 10km Mangalore Triathlon with a completion time of 1:10 hrs.}
+\resumeItemListEnd
+
+\section{Position Of Responsibility}
+\resumeSubHeadingListStart
+  \resumeProjectHeading{\textbf{Executive Member Utkrista-Bharat}}{}
+  \resumeProjectHeading{\textbf{Incident-2025 Coordinator}}{}
+\resumeSubHeadingListEnd
+
+
+
+\end{document}
