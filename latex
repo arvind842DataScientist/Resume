@@ -1,0 +1,270 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge \scshape Arvind Kumar} \\ \vspace{1pt}
+  \small +91-9693797598 $|$ \href{mailto:arvindkumar8521643719@gmail.com}{arvindkumar8521643719@gmail.com} $|$
+  \href{https://www.linkedin.com/in/arvind-kumar-b59286259}{LinkedIn} $|$
+  \href{https://github.com/arvind842DataScientist}{GitHub} $|$ 
+  \href{https://www.kaggle.com/hanumansingh}{Kaggle}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {NIT Karnataka, Surathkal}{Nov 2022 -- Present}
+    {B.Tech, Mining Engineering}{CGPA: 8.23}
+  \resumeSubheading
+    {S.A.E College}{2021}
+    {Class XII, BSEB}{85.6\%}
+  \resumeSubheading
+    {Jawahar Navodaya Vidyalaya}{2019}
+    {Class X, CBSE}{88.2\%}
+\resumeSubHeadingListEnd
+
+
+
+\section{Experience}
+\resumeSubHeadingListStart
+%    \resumeSubheading
+% {Full-Stack Web Developer}{Apr 2025 – Aug 2025}
+% {Independent / Personal Projects}{}
+% \resumeItemListStart
+%   \resumeItem{Worked as a full-stack developer handling frontend, backend, and database integration.}
+%   \resumeItem{Managed user authentication, data storage, and API communications.}
+%   \resumeItem{Deployed full-stack applications ensuring smooth functionality across devices.}
+%   \resumeItem{Collaborated with personal team and managed project workflow to deliver live applications.}
+% \resumeItemListEnd
+ % \resumeSubheading
+ %    {Industrial Visit Participant}{Mar 2025}
+ %    {Vedanta Sesa Goa, SEASA Iron Ore Mine}{Chitradurga, Karnataka}
+ %    \resumeItemListStart
+ %      % \resumeItem{Observed large-scale iron ore mining, including beneficiation and haulage systems.}
+ %      \resumeItem{Gained insights into environmental compliance and mine safety protocols.}
+ %      \resumeItem{Studied operation and maintenance of heavy earth-moving machinery used in iron ore extraction.}
+ %      \resumeItem{Understood mine planning, production scheduling, and ore quality management practices.}
+ %    \resumeItemListEnd
+
+ %  \resumeSubheading
+ %    {Industrial Training Intern}{Apr 2024 -- May 2024}
+ %    {CCL (Subsidiary of Coal India Ltd)}{Kathara Colliery, Jharkhand}
+ %    \resumeItemListStart
+ %      \resumeItem{Completed one-month training in open-cast mining operations.}
+ %      \resumeItem{Observed real-world applications of excavation, drilling, and hauling.}
+ %      \resumeItem{Learned about safety protocols and machinery handling.}
+ %      % \resumeItem{Studied blasting techniques, overburden removal, and coal production processes.}
+ %      \resumeItem{Gained hands-on exposure to heavy earth-moving machinery (shovels, draglines, dumpers).}
+ %      % \resumeItem{Understood mine planning, bench design, and slope stability considerations.}
+ %      % \resumeItem{Interacted with engineers to learn about production scheduling and cost optimization.}
+ %      % \resumeItem{Observed environmental management practices such as dust suppression and waste dumping.}
+ %     \resumeItemListEnd
+ \resumeSubheading
+    {Blast Design Optimization using ML (Industrial Training)}{Apr 2024 -- May 2024}
+    {CCL (Subsidiary of Coal India Ltd)}{Kathara Colliery, Jharkhand}
+    \resumeItemListStart
+      \resumeItem{Worked on a real-world project focused on blast design optimization and vibration prediction in open-cast coal mining.}
+      \resumeItem{Collected and analyzed blasting parameters (charge weight, spacing, burden, depth) from field data.}
+      \resumeItem{Developed predictive models to estimate Peak Particle Velocity (PPV) using regression techniques.}
+      \resumeItem{Applied Machine Learning algorithms (Random Forest, XGBoost) to improve prediction accuracy and optimize blasting outcomes.}
+      \resumeItem{Prepared analytical reports and visualizations to support safer and cost-effective mine operations.}
+    \resumeItemListEnd
+
+    % \resumeSubheading
+    % {Participant, ICMFGF-2024}{Mar 2024}
+    % {International Conference on Mining for Greener Future}{}
+    % \resumeItemListStart
+    %   \resumeItem{Attended a 3-day international conference focused on sustainable mining and greener technologies.}
+    %   \resumeItem{Interacted with General Managers, Managers, and senior officials from Coal India Ltd.}
+    %   \resumeItem{Gained insights into eco-friendly mining methods, emission control, and environmental management.}
+    %   \resumeItem{Enhanced understanding of industry challenges, innovative solutions, and future sustainability goals.}
+    % \resumeItemListEnd
+
+
+
+   
+
+ % \resumeSubheading
+ %    {Industrial Visit Participant}{Oct 2023}
+ %    {Keltech Energies Ltd. (Explosives Manufacturer)}{Karnataka}
+ %    \resumeItemListStart
+ %      \resumeItem{Explored production of industrial explosives used in mining.}
+ %      \resumeItem{Understood safety handling, regulatory norms, and quality control practices.}
+ %      \resumeItem{Observed step-by-step process of cartridge and emulsion explosive manufacturing.}
+ %      % \resumeItem{Gained insights into storage, transportation, and on-site delivery mechanisms.}
+ %      % \resumeItem{Interacted with industry experts to understand applications of explosives in surface and underground mining.}
+ %      % \resumeItem{Learned about environmental safeguards and sustainable practices in explosive production.}
+ %    \resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+%   \resumeProjectHeading
+%      {\textbf{Health Insurance Web Application} $|$ \emph{} \href{https://github.com/arvind842DataScientist/Caresure_insurance_app}{GitHub}}{Jan 2025 – Mar 2025}
+
+     
+%      $|$ \emph{React.js, Node.js, Express.js, MongoDB, JWT, TailwindCSS}
+     
+% \resumeItemListStart
+%   \resumeItem{Built a full-stack web app for managing health insurance policies.}
+%   \resumeItem{Implemented JWT-based authentication for secure login.}
+%   \resumeItem{Integrated MongoDB for user and policy data management.}
+%   \resumeItem{Created interactive dashboards for users and admin to manage policies and view details.}
+% \resumeItemListEnd
+% ---------------------------------------------------
+
+\resumeProjectHeading
+  {\textbf{Supply Chain Cost \& Logistics Analysis} $|$ \emph{Python, SQL, Power BI}  $|$ \href{https://github.com/arvind842DataScientist/suppy_chain_capstone_project.git}{GitHub Link}}{}
+  \begin{itemize}
+    \item Conducted sales, production, and shipping data analysis using Python \& SQL to identify cost-saving opportunities.
+    \item Built interactive dashboards in Power BI for logistics KPIs and bottleneck identification.
+  \end{itemize}
+% \resumeProjectHeading
+% {\textbf{Open Pit Bench Design and Slope Stability Study} }{ }
+% \resumeItemListStart
+%   \resumeItem{Integrated geological data, rock mechanical properties, and slope stability analysis using Spencer and Morgenstern-Price methods.}
+%   \resumeItem{Designed stable pit geometry and evaluated safety factors to ensure effective and safe mine planning.}
+%   \resumeItem{Analyzed borehole data and laboratory test results (UCS, tensile strength, density, weatherability) for accurate bench design.}
+%   \resumeItem{Applied Rocscience Slide software for slope stability modeling and factor of safety evaluation.}
+%   % \resumeItem{Proposed design recommendations aligning with CMR 2017 regulations for safe bench height and slope angles.}
+% \resumeItemListEnd
+
+
+
+
+
+  
+    % {\textbf{Netflix Recommendation System and EDA} $|$ \emph{Pandas, Seaborn, Scikit-learn}} $|$ {Apr 2025 – Jun 2025}
+    % \resumeItemListStart
+    %   \resumeItem{Analyzed Netflix dataset using EDA and WordClouds.}
+    %   \resumeItem{Built a content-based recommender using \texttt{TfidfVectorizer}.}
+    % \resumeItemListEnd
+
+%     {\textbf{AI Chatbot Web Application} $|$ \emph{React, Node.js, Express, MongoDB, Axios}}  $|$   {Jul 2025 – Aug 2025}
+% \resumeItemListStart
+%   \resumeItem{Developed a web-based AI chatbot for interactive conversation and query handling.}
+%   \resumeItem{Built frontend in React with responsive UI and backend using Node.js and Express.}
+% \resumeItemListEnd
+
+
+\textbf{Churn Prediction Project} $|$ \emph{Python, Pandas, NumPy, Matplotlib, Scikit-learn (RandomForestClassifier)} $|$ \href{https://github.com/arvind842DataScientist/Churn_prediction.git}{GitHub Link}
+\resumeItemListStart
+  \resumeItem{Performed data cleaning, preprocessing, and exploratory data analysis (EDA) on customer churn dataset.}
+  \resumeItem{Trained and evaluated a \textbf{Random Forest Classifier}, achieving \textbf{50\% accuracy} and \textbf{50\% precision} on test data.}
+  \resumeItem{Visualized feature importance to identify key churn drivers such as tenure, monthly charges, and contract type.}
+\resumeItemListEnd
+
+
+
+\resumeProjectHeading
+{\textbf{Olympic Data Analysis Web App} $|$ \emph{Python, Pandas, NumPy, Plotly, Seaborn, Streamlit}}{%
+\href{https://github.com/arvind842DataScientist/olympic_data_analysis.git}{GitHub Link}}
+\resumeItemListStart
+\resumeItem{Developed an interactive \textbf{Streamlit} web app to analyze Summer Olympic data (pre-2016) with country-wise medal tallies.}
+\resumeItem{Delivered an intuitive interface for exploring medal statistics, improving user engagement and data accessibility.}
+\resumeItemListEnd
+
+
+
+  % \resumeProjectHeading
+  %   {\textbf{Sales Data Dashboard} $|$ \emph{SQL, Pandas, Matplotlib}}{Dec 2023 – Feb 2025}
+  %   \resumeItemListStart
+  %     \resumeItem{Built interactive dashboards to track KPIs and trends.}
+  %     \resumeItem{Provided insights for improving customer and product strategy.}
+  %   \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+  % \textbf{Tech:} Slide2, Fragalyst,Excel,QGIS \\
+    \textbf{Tech:} Python,NumPy, Pandas, Scikit-learn, Seaborn, Tailwind CSS, Matplotlib, Power BI, Excel,SQL \\
+    % \textbf{Tech:} MongoDB, React, TailwindCSS, Express,Node JS,
+    % \textbf{Tools:} Jupyter, git , VS Code, gitHub \\
+    \textbf{Soft Skills:} Communication, Leadership, Teamwork
+  }}
+\end{itemize}
+
+\section{Extracurricular Activities}
+\resumeSubHeadingListStart
+  \resumeProjectHeading{\textbf{Utkrista-Bharat Club} $|$ Executive Member}{}
+    \resumeItemListStart
+      \resumeItem{Organized Inci Renaissance’25, Hindi Pakhwada, and talks on Inner Engineering.}
+      \resumeItem{Designed social media banners as Media Head.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading{\textbf{Inci’25 Coordinator}}{}
+    \resumeItemListStart
+      \resumeItem{Managed crowd logistics and organized NITK Beach volleyball with 50+ teams.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Achievements}
+\resumeItemListStart
+  \resumeItem{Solved 300+ DSA problems on various platforms and achieved a LeetCode rating of 1500, demonstrating strong algorithmic and problem-solving skills.}
+
+  \resumeItem{Secured AIR 2100 (EWS category) in JEE Advanced 2022.}
+  \resumeItem{Completed 10km Mangalore Triathlon in 1 hr 10 min (Gold medal).}
+\resumeItemListEnd
+
+\end{document}
